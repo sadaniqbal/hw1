@@ -1,16 +1,16 @@
 const pics = [
-    'imgs/kitty_bed.jpg', // 0
-    'imgs/kitty_basket.jpg', // 1
-    'imgs/kitty_laptop.jpg', // 2
-    'imgs/kitty_door.jpg', //3
-    'imgs/kitty_sink.jpg', // 4
-    'imgs/kitty_wall.jpg', // 5
+    'imgs/kitty_bed.jpg',
+    'imgs/kitty_basket.jpg',
+    'imgs/kitty_laptop.jpg',
+    'imgs/kitty_door.jpg', 
+    'imgs/kitty_sink.jpg', 
+    'imgs/kitty_wall.jpg',
   ]
   
   const button = document.querySelector('button')
   const img = document.querySelector('img')
   
-  let showIndex = 0
+  let showIndex = 1
   button.addEventListener('click', function() {
     if (showIndex === 6) {
       showIndex = 0

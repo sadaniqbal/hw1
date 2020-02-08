@@ -10,6 +10,8 @@
 );
 
 h1 {
+  color: #C7D8CA;
+  border-top: #C7D8CA;
   font-weight: 200;
   font-size: 70px;
   text-transform: uppercase;
@@ -17,14 +19,15 @@ h1 {
 }
 
 body {
-  background-color: #f69680;
-  color: #2e1263;
+  background-color: #3C693F;
+  color: #C7D8CA;
   font-family: 'Source Code Pro';
   font-weight: 200;
 }
 
 img {
-  height: 500px;
+  height: 400px;
+  /*width: 300px;*/
   border-radius: 50%;
 }
 
@@ -37,13 +40,13 @@ img {
 }
 
 button {
-  margin: 30px atuo 0;
+  margin: 30px auto 0;
   padding: 20px 25px;
-  background-color: #f69680;
-  color: #2e1263;
+  background-color: #3C693F;
+  color: #C7D8CA;
   font-size: 14px;
   text-align: center;
-  border: 1px solide #2e1263;
+  border: 1px solide #C7D8CA;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 4px;
@@ -51,12 +54,14 @@ button {
 }
 
 button:hover {
-  transition: 0.3s;
-  background-color: #2e1263;
-  color: #f69680;
+  transition: 0.9s;
+  background-color: #C7D8CA;
+  color: #3C693F;
   text-decoration: underline;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 p {
-  font-size: 20px;
+  font-size: 35px;
 }
